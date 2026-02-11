@@ -1,0 +1,27 @@
+{
+  "name": "node-red-context-s3",
+  "license": "MIT",
+  "main": "context.js",
+  "scripts": {
+    "test": "jest ./ --runInBand --forceExit --colors --verbose=false --silent=false"
+  },
+  "version": "0.0.1",
+  "author": {
+    "name": "eslizn",
+    "email": "eslizn@gmail.com"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.987.0"
+  },
+  "deprecated": false,
+  "description": "implementation of the node-red context API for S3 Protocol",
+  "keywords": [
+    "node-red",
+    "context",
+    "s3"
+  ],
+  "devDependencies": {
+    "dotenv": "^17.2.4",
+    "jest": "^30.2.0"
+  }
+}
